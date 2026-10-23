@@ -2,7 +2,7 @@
 
 British-inspired automotive concept showroom, built with HTML, CSS and vanilla JavaScript.
 
-[Visit the privately hosted showroom](https://britannia-aether-showroom.wise-wasp-0659.chatgpt.site) · [Architecture](docs/architecture.md) · [Testing](docs/testing.md)
+[Visit the showroom](https://rajakokila-p.github.io/britannia-aether-showroom/) · [Architecture](docs/architecture.md) · [Testing](docs/testing.md)
 
 ![Showroom preview](docs/showroom-preview.png)
 
@@ -18,7 +18,7 @@ These are fictional vehicle designs, not production cars. No orders, reservation
 - Browser-local interactions and text-file downloads
 - Native dialogs and keyboard-accessible controls
 - Google Fonts (external font requests)
-- Static hosting through Sites; the live site currently requires authorised access
+- Public static hosting through GitHub Pages
 - No custom backend, customer database or payment processing
 
 ## Repository structure
@@ -62,7 +62,9 @@ GitHub Actions runs these checks on pushes and pull requests. Browser interactio
 
 ## Deployment
 
-This repository is a source copy of the current Sites website. Pushing here runs checks; it does **not** automatically update the Sites deployment. Sites publishing remains a separate versioned process. No GitHub Pages deployment is enabled by this repository.
+The `.github/workflows/pages.yml` pipeline validates the source, uploads the `site/` directory and deploys it to GitHub Pages on pushes to `main`. Repository Pages settings use GitHub Actions as the publishing source. The public address is https://rajakokila-p.github.io/britannia-aether-showroom/.
+
+Architecture and testing documentation are available in `docs/` on GitHub. The original Sites deployment remains separate and is not updated by this pipeline. Downloaded concept briefs link to the legal page on the current host.
 
 ## Legal information and sample data
 

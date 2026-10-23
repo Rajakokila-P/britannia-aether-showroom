@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart TD
-  Visitor[Desktop or mobile visitor] --> Hosting[Private Sites hosting]
+  Visitor[Desktop or mobile visitor] --> Hosting[Public GitHub Pages hosting]
   Hosting --> HTML[HTML pages]
   HTML --> CSS[Responsive CSS]
   HTML --> Images[Vehicle imagery]
@@ -32,7 +32,19 @@ flowchart LR
   References --> Review
 ```
 
-## Sites publication workflow
+## GitHub Pages deployment pipeline
+
+```mermaid
+flowchart LR
+  Main[Push to main] --> Validate[JavaScript and HTML validation]
+  Validate --> Upload[Upload site directory as Pages artifact]
+  Upload --> Deploy[Deploy to GitHub Pages]
+  Deploy --> Public[Public github.io website]
+```
+
+The `pages.yml` workflow publishes only after validation succeeds. It uses GitHub's Pages deployment token; no personal credentials are stored in the repository. Pages serves static files with no application backend or database. The architecture and testing documents remain in the GitHub `docs/` directory.
+
+## Separate original Sites publication workflow
 
 ```mermaid
 flowchart LR
