@@ -77,3 +77,7 @@ Replace fictional company and contact details with verified information before u
 Vehicle concepts and images were supplied by the project creator. Website code and documentation were developed with OpenAI Codex assistance. Google Fonts supplies DM Sans and Manrope. Government and Ofcom pages are linked as reference sources, without implying endorsement.
 
 No open-source licence has been selected for this project. Repository availability does not grant additional reuse rights to its code, branding or imagery.
+
+## Contact form
+
+The contact form collects a name, reply email and message to prepare a local email draft addressed to spraja110880.rk@gmail.com. Visitors must send it in their email application. There is no server submission, database storage or automatic reply. A direct email link remains available.

@@ -26,6 +26,7 @@ jobs:
       - name: Validate website
         run: |
           node --check site/app.js
+          node --check site/contact.js
           python scripts/check.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
