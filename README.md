@@ -74,8 +74,6 @@ Replace fictional company and contact details with verified information before u
 
 ## Credits
 
-Vehicle concepts and images were supplied by the project creator. Website code and documentation were developed with OpenAI Codex assistance. Google Fonts supplies DM Sans and Manrope. Government and Ofcom pages are linked as reference sources, without implying endorsement.
-
 No open-source licence has been selected for this project. Repository availability does not grant additional reuse rights to its code, branding or imagery.
 
 ## Contact form
