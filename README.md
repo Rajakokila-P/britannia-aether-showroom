@@ -70,7 +70,7 @@ Architecture and testing documentation are available in `docs/` on GitHub. The o
 
 The legal page links to GOV.UK guidance covering company disclosures, vehicle approval, driver obligations, online sales, consumer rights, advertising and data protection. Sources were checked on 23 October 2026. It is an informational summary, not a legal-compliance certification or complete sales contract.
 
-Replace fictional company and contact details with verified information before using the website for real trading. No contact details in the sample section are operational. The telephone number is from Ofcom's fictional range.
+Replace fictional company and contact details with verified information before using the website for real trading. The project email links to spraja110880.rk@gmail.com through mailto; replies are handled manually, with no backend or automatic response service. The telephone number is from Ofcom's fictional range.
 
 ## Credits
 
