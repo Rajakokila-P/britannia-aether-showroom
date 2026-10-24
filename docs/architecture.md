@@ -15,7 +15,7 @@ flowchart TD
   Config --> Download[Local text download]
   HTML --> Legal[Company and UK legal page]
   Legal --> Sources[GOV.UK and Ofcom sources]
-  HTML --> Contact[Sample contact and non-linked social labels]
+  HTML --> Contact[Sample contact and external social links]
 ```
 
 There is no custom application backend or database. The hosting provider may process access and authentication information. Google Fonts receives external requests. The configurator does not send selections to a sales service.

@@ -20,7 +20,7 @@ JavaScript syntax checks passed. Desktop screenshots were inspected. The showroo
 
 ## Repository checks
 
-`scripts/check.py` checks local HTML references, fragment IDs, duplicate IDs, expected social placeholders and legal references. `node --check site/app.js` checks JavaScript syntax. These commands run in GitHub Actions.
+`scripts/check.py` checks local HTML references, fragment IDs, duplicate IDs, expected social links and legal references. `node --check site/app.js` checks JavaScript syntax. These commands run in GitHub Actions.
 
 ## Limits
 

@@ -10,7 +10,7 @@ British-inspired automotive concept showroom, built with HTML, CSS and vanilla J
 
 Explore Aether Sport, Windsor Halo, Nomad and Albion Phoenix through model filters, detailed dialogs, technology panels and a personal concept configurator. The site includes a comparison table, downloadable concept briefs, a UK legal information page and clearly labelled sample contact details.
 
-These are fictional vehicle designs, not production cars. No orders, reservations, payments or road-approval claims are made. Social channels are placeholders without links. Company details are illustrative, not verified registration information.
+These are fictional vehicle designs, not production cars. No orders, reservations, payments or road-approval claims are made. Social channels link to accounts supplied by the project creator. Company details are illustrative, not verified registration information.
 
 ## Technology
 

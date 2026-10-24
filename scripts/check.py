@@ -34,13 +34,14 @@ for name, doc in docs.items():
             errors.append(f'{name}: missing fragment {link}')
 home = (root / 'index.html').read_text(encoding='utf-8')
 legal = (root / 'legal.html').read_text(encoding='utf-8')
-for label in ('Facebook', 'Instagram', 'YouTube', 'X'):
-    if f'<span>{label}</span>' not in home:
-        errors.append('Missing non-linked social label: ' + label)
+social_links = {'Facebook': 'https://www.facebook.com/britannia.aether/', 'Instagram': 'https://www.instagram.com/spraja110880.rk/', 'YouTube': 'https://www.youtube.com/@RajakokilaPeriyathamby', 'X': 'https://x.com/David2_2David'}
+for label, url in social_links.items():
+    if url not in docs["index.html"].links:
+        errors.append("Missing social link: " + label)
 if 'tel:' in home:
     errors.append('Sample phone must not be callable')
 if legal.count('https://www.gov.uk/') < 7:
     errors.append('Missing legal references')
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: internal HTML references, fragments, IDs, social placeholders and legal references')
+print('PASS: internal HTML references, fragments, IDs, social links and legal references')
