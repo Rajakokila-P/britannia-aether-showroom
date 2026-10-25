@@ -30,3 +30,6 @@ Run `python -m http.server 8000 --directory site` from the project root and open
 
 ## Follow-up quality review
 The earlier browser-access restriction was resolved. See [quality audit](quality-audit.md) for measured scores, verified fixes and current browser evidence. Publication is now explicitly authorised by the project owner.
+
+## Homepage preference — 25 October 2026
+At the owner’s request, the automotive showroom is restored at `site/index.html`. The portfolio moves to `site/portfolio.html`. Existing `site/showroom.html` links remain valid. Optimized images and the current system fonts are retained; this change restores the homepage layout, not the previous font loading. Earlier Lighthouse results describe the page layouts before this route change.

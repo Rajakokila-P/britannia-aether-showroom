@@ -80,8 +80,8 @@ No open-source licence has been selected for this project. Repository availabili
 
 The contact form collects a name, reply email and message to prepare a local email draft addressed to spraja110880.rk@gmail.com. Visitors must send it in their email application. There is no server submission, database storage or automatic reply. A direct email link remains available.
 
-## Portfolio homepage
-The homepage now presents a clean project portfolio. The original showroom is at site/showroom.html. See [portfolio requirements and handoff](docs/portfolio-requirements.md) for implementation details, missing personal content and verification limits.
+## Showroom homepage and portfolio
+The original automotive showroom is restored as the homepage at site/index.html. The project portfolio remains at site/portfolio.html, linked from the showroom navigation. The existing site/showroom.html address continues to work. See [portfolio requirements and handoff](docs/portfolio-requirements.md) for implementation details, missing personal content and verification limits.
 
 
 ## Quality audit
