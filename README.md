@@ -81,7 +81,7 @@ No open-source licence has been selected for this project. Repository availabili
 The contact form collects a name, reply email and message to prepare a local email draft addressed to spraja110880.rk@gmail.com. Visitors must send it in their email application. There is no server submission, database storage or automatic reply. A direct email link remains available.
 
 ## Showroom homepage and portfolio
-The original automotive showroom is restored as the homepage at site/index.html. The project portfolio remains at site/portfolio.html, linked from the showroom navigation. The existing site/showroom.html address continues to work. See [portfolio requirements and handoff](docs/portfolio-requirements.md) for implementation details, missing personal content and verification limits.
+The original automotive showroom is restored as the homepage at site/index.html. The project portfolio remains at site/portfolio.html, retained as a separate page, without a link from the showroom homepage. The existing site/showroom.html address continues to work. See [portfolio requirements and handoff](docs/portfolio-requirements.md) for implementation details, missing personal content and verification limits.
 
 
 ## Quality audit
@@ -97,7 +97,7 @@ The showroom remains the homepage. The separate portfolio contains four fictiona
 | Fast loading | Live audit on 25 October 2026 measured performance 100 on mobile and desktop. Lab results vary. |
 | Responsive desktop/tablet/mobile | Both existing pages checked at 390, 768 and 1440 CSS pixels without horizontal document overflow. CSS uses desktop defaults with responsive overrides. |
 | Accessible colors and controls | Automated contrast checks passed. Footer links now have 44px minimum target height; this is not full WCAG certification. |
-| Simple navigation | Section links plus a portfolio link; navigation wraps on small screens. |
+| Simple navigation | Company/showroom section links; navigation wraps on small screens. The portfolio link has been removed from the homepage. |
 | Case-study title, summary, problem, role, stack and architecture | Implemented software case study documents scope, AI-assisted contributions, actual browser data flow and delivery pipeline. |
 | Results and metrics | Dated Lighthouse measurements, LCP and CLS included with audit settings; no invented traffic, revenue or vehicle metrics. |
 | GitHub and live demo | Linked from the portfolio and software case study. |
@@ -105,7 +105,7 @@ The showroom remains the homepage. The separate portfolio contains four fictiona
 | SEO and sharing metadata | Showroom title/description, Open Graph tags, sharing image and canonical URL added. Legacy showroom URL points canonically to the homepage. |
 | Contact | Direct email and local email-draft form; no server-side delivery. |
 | LinkedIn | [Owner-supplied profile](https://www.linkedin.com/in/rajakokila-periyathamby-4b3689120/) added to both contact areas. |
-| Resume download | Pending an owner-supplied resume or public resume URL. No placeholder link. |
+| Resume download | Not applicable to this university company website. The public PDF and all CV download links have been removed at the owner’s request. |
 | Deployment and custom domain | GitHub Pages deployment configured and live; no custom domain configured. |
 | Analytics | Optional; not installed. |
 
@@ -118,3 +118,7 @@ The legal page now correctly states that system fonts are used with no Google Fo
 ### Follow-up verification
 After these fixes, fresh local Lighthouse checks scored 100/100/100/100 for the showroom on desktop and the new software case study on mobile. The footer target-size audit passes, and both footer links measure 44px high. These local follow-up runs are distinct from the dated live measurements used in the case study. Internal reference and JavaScript syntax checks pass.
 
+
+### University company website — 25 October 2026
+
+The owner clarified that this is a university company website. The CV PDF and all CV download links have been removed from the published site. The showroom homepage and its alternate route no longer link to the separate portfolio page. Existing GitHub Pages hosting is retained; a custom domain and analytics are not required.
