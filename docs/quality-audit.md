@@ -30,3 +30,7 @@ Lighthouse 13.5.0 ran against the local HTTP preview with headless Microsoft Edg
 
 ## Scope and limits
 Reports and screenshots are saved locally in `quality-reports/` and excluded from Git. The local development server has no compression or cache policy; GitHub Pages controls production headers. Remaining local cache diagnostics are hosting-related. This is not an exhaustive assistive-technology or cross-browser audit. No personal career claims, LinkedIn profile or resume were invented.
+
+## Requirements follow-up — 25 October 2026
+Added homepage sharing/canonical metadata, 44px footer targets, accurate system-font wording, the owner-supplied LinkedIn link and a software case study. Local Lighthouse follow-up: showroom desktop and case-study mobile both score 100 performance, 100 accessibility, 100 best practices and 100 SEO. Footer target-size check passes. The case-study metrics intentionally retain their dated pre-fix live baseline with methodology in performance-evidence.json. Resume remains pending.
+

@@ -1,0 +1,89 @@
+{
+  "note": "Pre-fix live lab audit, 25 October 2026. Desktop accessibility 97 identified footer target-size issues; this is not a full accessibility certification. Scores vary between runs.",
+  "runs": [
+    {
+      "device": "mobile",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-25T20:42:12.727Z",
+      "url": "https://rajakokila-p.github.io/britannia-aether-showroom/",
+      "auditedCommit": "4609369b8c67c15b94109bdcbd27933cc9a1e784",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1454.5140000000001,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        }
+      },
+      "config": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    },
+    {
+      "device": "desktop",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-25T20:42:28.881Z",
+      "url": "https://rajakokila-p.github.io/britannia-aether-showroom/",
+      "auditedCommit": "4609369b8c67c15b94109bdcbd27933cc9a1e784",
+      "scores": {
+        "performance": 100,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 327.03200000000004,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        }
+      },
+      "config": {
+        "formFactor": "desktop",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        }
+      }
+    }
+  ]
+}

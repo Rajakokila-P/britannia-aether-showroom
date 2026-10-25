@@ -86,3 +86,35 @@ The original automotive showroom is restored as the homepage at site/index.html.
 
 ## Quality audit
 See [the quality audit](docs/quality-audit.md) for Lighthouse results and browser verification of the portfolio and optimized showroom.
+## Requirements checklist and follow-up fixes
+
+The showroom remains the homepage. The separate portfolio contains four fictional vehicle design studies and [one implemented software case study](https://rajakokila-p.github.io/britannia-aether-showroom/showroom-case-study.html).
+
+| Requirement | Status |
+| --- | --- |
+| Minimal and modern | Portfolio is restrained; the owner-selected showroom retains its automotive presentation. |
+| Typography, palette and spacing | Clear hierarchy, cream/dark palette and consistent section spacing. |
+| Fast loading | Live audit on 25 October 2026 measured performance 100 on mobile and desktop. Lab results vary. |
+| Responsive desktop/tablet/mobile | Both existing pages checked at 390, 768 and 1440 CSS pixels without horizontal document overflow. CSS uses desktop defaults with responsive overrides. |
+| Accessible colors and controls | Automated contrast checks passed. Footer links now have 44px minimum target height; this is not full WCAG certification. |
+| Simple navigation | Section links plus a portfolio link; navigation wraps on small screens. |
+| Case-study title, summary, problem, role, stack and architecture | Implemented software case study documents scope, AI-assisted contributions, actual browser data flow and delivery pipeline. |
+| Results and metrics | Dated Lighthouse measurements, LCP and CLS included with audit settings; no invented traffic, revenue or vehicle metrics. |
+| GitHub and live demo | Linked from the portfolio and software case study. |
+| Honest scope and concise technical content | One real website; four speculative vehicle studies clearly labelled. |
+| SEO and sharing metadata | Showroom title/description, Open Graph tags, sharing image and canonical URL added. Legacy showroom URL points canonically to the homepage. |
+| Contact | Direct email and local email-draft form; no server-side delivery. |
+| LinkedIn | [Owner-supplied profile](https://www.linkedin.com/in/rajakokila-periyathamby-4b3689120/) added to both contact areas. |
+| Resume download | Pending an owner-supplied resume or public resume URL. No placeholder link. |
+| Deployment and custom domain | GitHub Pages deployment configured and live; no custom domain configured. |
+| Analytics | Optional; not installed. |
+
+The legal page now correctly states that system fonts are used with no Google Fonts requests. The full original requirements review is recorded in [requirements-review.md](docs/requirements-review.md); its findings describe the pre-fix state.
+
+### Reproducible measurement evidence
+
+[Performance evidence](docs/performance-evidence.json) records the live audit timestamp, revision, device/throttling settings and raw metric values. At revision `4609369`, mobile scores were 100/100/100/100 and desktop scores 100/97/100/100 (performance/accessibility/best practices/SEO). Desktop accessibility identified the footer targets addressed in this follow-up. Mobile LCP was approximately 1.5 seconds, desktop 0.3 seconds, and CLS was 0 on both. These are laboratory results, not guarantees or traffic analytics.
+
+### Follow-up verification
+After these fixes, fresh local Lighthouse checks scored 100/100/100/100 for the showroom on desktop and the new software case study on mobile. The footer target-size audit passes, and both footer links measure 44px high. These local follow-up runs are distinct from the dated live measurements used in the case study. Internal reference and JavaScript syntax checks pass.
+

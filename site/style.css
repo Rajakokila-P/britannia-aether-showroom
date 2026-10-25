@@ -7,3 +7,6 @@
 .company-contact a[href^="mailto:"]{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 
 .contact-form-panel{margin-top:45px;padding-top:30px;border-top:1px solid #b7c3ba;max-width:760px}.contact-form-panel h3{font-size:27px}.contact-form-panel p{line-height:1.8}.contact-form-panel form{display:grid;gap:12px;margin:25px 0}.contact-form-panel label{font-weight:600;margin-top:8px}.contact-form-panel input,.contact-form-panel textarea{width:100%;min-width:0;padding:16px;border:1px solid #8d9c93;background:#faf9f6;color:var(--ink);font:inherit;border-radius:0}.contact-form-panel textarea{resize:vertical}.contact-form-panel textarea:focus-visible{outline:3px solid #247c91;outline-offset:3px}.contact-form-panel button{justify-self:start;border:0;background:var(--ink);color:white}.contact-form-panel .contact-note{font-size:12px}.contact-form-panel .contact-note a{text-decoration:underline}.contact-form-panel #contact-draft{display:inline-block}.contact-form-panel #contact-status{font-weight:500}
+
+/* Keep adjacent footer links comfortably clickable. */
+footer > span > a { display:inline-flex; align-items:center; min-height:44px; padding:6px 4px; margin-block:2px; }
