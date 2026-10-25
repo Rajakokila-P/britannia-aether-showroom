@@ -119,6 +119,6 @@ The legal page now correctly states that system fonts are used with no Google Fo
 After these fixes, fresh local Lighthouse checks scored 100/100/100/100 for the showroom on desktop and the new software case study on mobile. The footer target-size audit passes, and both footer links measure 44px high. These local follow-up runs are distinct from the dated live measurements used in the case study. Internal reference and JavaScript syntax checks pass.
 
 
-### University company website — 25 October 2026
+### This is for University project website — 25 October 2026
 
-The owner clarified that this is a university company website. The CV PDF and all CV download links have been removed from the published site. The showroom homepage and its alternate route no longer link to the separate portfolio page. Existing GitHub Pages hosting is retained; a custom domain and analytics are not required.
+The owner clarified that this is a university project website. The CV PDF and all CV download links have been removed from the published site. The showroom homepage and its alternate route no longer link to the separate portfolio page. Existing GitHub Pages hosting is retained; a custom domain and analytics are not required.
