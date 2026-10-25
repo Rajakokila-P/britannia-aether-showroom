@@ -17,7 +17,7 @@ These are fictional vehicle designs, not production cars. No orders, reservation
 - Semantic HTML, responsive CSS and vanilla JavaScript
 - Browser-local interactions and text-file downloads
 - Native dialogs and keyboard-accessible controls
-- Google Fonts (external font requests)
+- System fonts (no external font requests)
 - Public static hosting through GitHub Pages
 - No custom backend, customer database or payment processing
 
@@ -47,7 +47,7 @@ Install Python 3, then run from the repository root:
 python -m http.server 8000 --directory site
 ```
 
-Open http://localhost:8000. No frontend build step or package installation is required. Internet access is needed for Google Fonts and external reference links.
+Open http://localhost:8000. No frontend build step or package installation is required. Internet access is needed for external reference links.
 
 ## Validate
 
@@ -79,3 +79,10 @@ No open-source licence has been selected for this project. Repository availabili
 ## Contact form
 
 The contact form collects a name, reply email and message to prepare a local email draft addressed to spraja110880.rk@gmail.com. Visitors must send it in their email application. There is no server submission, database storage or automatic reply. A direct email link remains available.
+
+## Portfolio homepage
+The homepage now presents a clean project portfolio. The original showroom is at site/showroom.html. See [portfolio requirements and handoff](docs/portfolio-requirements.md) for implementation details, missing personal content and verification limits.
+
+
+## Quality audit
+See [the quality audit](docs/quality-audit.md) for Lighthouse results and browser verification of the portfolio and optimized showroom.

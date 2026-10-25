@@ -21,7 +21,7 @@ flowchart TD
   HTML --> Contact[Project email, sample address and external social links]
 ```
 
-There is no custom application backend or database. The hosting provider may process access and authentication information. Google Fonts receives external requests. The configurator does not send selections to a sales service.
+There is no custom application backend or database. The hosting provider may process access and authentication information. System fonts avoid external font requests. The configurator does not send selections to a sales service.
 
 ## GitHub validation pipeline
 
