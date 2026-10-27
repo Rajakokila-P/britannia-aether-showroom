@@ -1,7 +1,44 @@
 # Britannia Aether
 British-inspired fictional automotive concept showroom for a university project. Built with semantic HTML, CSS and vanilla JavaScript. No vehicles, orders, payments or road approval are offered.
 
+## Desktop and mobile screenshots
+
+Captured from the live GitHub Pages homepage on 27 October 2026 using Edge with responsive viewport overrides. These show the initial page view, not a complete accessibility or cross-browser test. The mobile image is a narrow browser viewport, not a physical-device capture.
+
+### Desktop view — 1440 × 1000 CSS-pixel viewport
+
+![Britannia Aether desktop homepage: navigation, headline and Aether Sport concept](docs/screenshots/desktop.jpg)
+
+### Mobile view — 390 × 844 CSS-pixel viewport
+
+![Britannia Aether mobile homepage: wrapped navigation and responsive hero](docs/screenshots/mobile.jpg)
+
+[Open the live showroom](https://rajakokila-p.github.io/britannia-aether-showroom/)
+
+## All 15 project areas
+
+All 15 areas are addressed below. “Not applicable” means the system is not implemented because this static showroom does not require it. It does not mean a working backend or AI service is included.
+
+| # | Area | Document | Current scope |
+| --- | --- | --- | --- |
+| 1 | Product requirements | [PRD.md](docs/PRD.md) | Documented for static showroom |
+| 2 | Design | [DESIGN.md](docs/DESIGN.md) | Documented and implemented in CSS/HTML |
+| 3 | Architecture | [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Static data flow and delivery documented |
+| 4 | Database/backend | [DATABASE.md](docs/DATABASE.md) | Not applicable; local data model documented |
+| 5 | API | [API.md](docs/API.md) | No application API; browser contracts documented |
+| 6 | Agents/coding rules | [../AGENTS.md](AGENTS.md) | Coding rules included; runtime agents not applicable |
+| 7 | README | [../README.md](README.md) | Current entry point and handoff |
+| 8 | Implementation plan | [PLAN.md](docs/PLAN.md) | Dependencies, priorities and release steps |
+| 9 | Setup | [SETUP.md](docs/SETUP.md) | Preview, validation and development dependencies |
+| 10 | Features | [FEATURES.md](docs/FEATURES.md) | Source mapping and acceptance behavior |
+| 11 | Authentication/security | [AUTHENTICATION.md](docs/AUTHENTICATION.md) | Public access decision and trust boundaries |
+| 12 | MCP | [MCP.md](docs/MCP.md) | Not applicable; rationale and future gate |
+| 13 | Integrations | [INTEGRATIONS.md](docs/INTEGRATIONS.md) | Actual connections and failure boundaries |
+| 14 | Testing/QA | [TESTING.md](docs/TESTING.md) | Repeatable suite plus manual coverage |
+| 15 | Debugging | [DEBUGGING.md](docs/DEBUGGING.md) | Diagnosis, recovery and report template |
+
 ## Start here
+
 - [All 15 areas](docs/COVERAGE.md): current documentation and explicit not-applicable decisions.
 - [Requirements](docs/PRD.md), [design](docs/DESIGN.md), [architecture](docs/ARCHITECTURE.md).
 - [Setup](docs/SETUP.md), [testing](docs/TESTING.md), [fresh verification](docs/VERIFICATION.md), [debugging](docs/DEBUGGING.md).
