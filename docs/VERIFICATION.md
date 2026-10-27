@@ -24,3 +24,6 @@ The new suite is intended to verify filters, model dialogs, personalization focu
 
 ## Remaining manual work
 Cross-browser and assistive-technology testing, visual review, external-link availability and any fresh Lighthouse measurement. Earlier results retained in historical reports were not rerun. The existing static design intentionally has no backend/authentication/MCP services to exercise.
+
+## Public development page update — 27 October 2026
+Added development.html with both screenshot assets, all 15 native disclosures and GitHub documentation links; linked it from both synchronised showroom routes. Source/reference checks, documentation checks and all three JavaScript syntax checks passed again. Confirmed 15 disclosure entries. Browser acceptance execution remains blocked because the installed Playwright Chromium executable is missing. Previous statements about unchanged site files and no GitHub update describe the earlier documentation-only snapshot, not this update.

@@ -19,3 +19,6 @@ No migrations, server routes or external API implementation is involved. See DAT
 
 ## Definition of done
 Behavior meets PRD acceptance criteria, labels/focus remain usable, mobile layout is checked, tests pass or gaps are explicitly recorded, and documentation reflects the actual implementation. No unsupported claims or personal career facts may be introduced.
+
+## Public project documentation
+Both showroom routes link to development.html (Interactive Frontend Development). Visitors can inspect desktop/mobile homepage captures, expand all 15 areas, follow source documentation and return to the showroom. Screenshots are deployed under site/assets; no runtime dependencies are added.

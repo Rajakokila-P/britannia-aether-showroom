@@ -10,3 +10,6 @@
 
 /* Keep adjacent footer links comfortably clickable. */
 footer > span > a { display:inline-flex; align-items:center; min-height:44px; padding:6px 4px; margin-block:2px; }
+
+/* Allow the expanded main navigation to wrap before links overflow. */
+@media(min-width:901px) and (max-width:1250px){header{height:auto;min-height:94px;flex-wrap:wrap;padding-block:20px}header nav{flex-wrap:wrap;gap:20px}}

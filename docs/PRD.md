@@ -29,3 +29,6 @@ Preserve plain HTML/CSS/JavaScript, system fonts, optimized images, keyboard ope
 
 ## Success and future decisions
 Success is reproducible R1–R8 evidence with remaining manual checks disclosed. Any future server submission, account system or external paid integration requires a new specification, privacy decisions and deployment plan. Do not invent company registration or product capabilities.
+
+## Public development page
+R9: development.html is linked from both showroom navigation routes and displays desktop/mobile screenshots, all 15 documented areas with working GitHub links, explicit not-applicable decisions and verification limits. Native disclosure controls work without JavaScript.

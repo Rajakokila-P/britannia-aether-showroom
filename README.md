@@ -1,6 +1,8 @@
 # Britannia Aether
 British-inspired fictional automotive concept showroom for a university project. Built with semantic HTML, CSS and vanilla JavaScript. No vehicles, orders, payments or road approval are offered.
 
+[Interactive Frontend Development — screenshots and all 15 areas](https://rajakokila-p.github.io/britannia-aether-showroom/development.html)
+
 ## Desktop and mobile screenshots
 
 Captured from the live GitHub Pages homepage on 27 October 2026 using Edge with responsive viewport overrides. These show the initial page view, not a complete accessibility or cross-browser test. The mobile image is a narrow browser viewport, not a physical-device capture.

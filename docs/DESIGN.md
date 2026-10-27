@@ -16,3 +16,6 @@ CSS uses desktop defaults with smaller-screen overrides; do not describe it as s
 
 ## Content and error guidance
 Do not imply purchases, real warranties or tested vehicle specifications. Do not show a successful sent-message state: the site prepares a draft only. There are no remote API skeleton/loading states. Missing assets should be diagnosed using DEBUGGING.md.
+
+## Development page
+development.html and development.css use the showroom palette and typography, a two-column desktop/mobile screenshot gallery, a single-column narrow layout and keyboard-operable native disclosures for all 15 areas. The expanded main navigation wraps at intermediate widths.
