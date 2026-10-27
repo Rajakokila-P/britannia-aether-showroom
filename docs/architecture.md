@@ -1,3 +1,5 @@
+> Historical document retained for traceability. Current specification and coverage: [COVERAGE.md](COVERAGE.md). Current homepage is index.html (showroom); portfolio.html is separate. Résumé is intentionally excluded. Earlier audit scores are historical, not rerun by this update.
+
 # Architecture and pipeline
 
 ## Current website

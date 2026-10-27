@@ -1,3 +1,5 @@
+> Historical document retained for traceability. Current specification and coverage: [COVERAGE.md](COVERAGE.md). Current homepage is index.html (showroom); portfolio.html is separate. Résumé is intentionally excluded. Earlier audit scores are historical, not rerun by this update.
+
 # Portfolio redesign — requirements and handoff
 
 The new `site/index.html` presents BRITANNIA Aether as a restrained project portfolio while retaining its automotive concept identity. The original interactive experience remains at `site/showroom.html`. Downloaded source files were copied into this workspace; the Downloads copy was not modified.

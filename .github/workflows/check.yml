@@ -16,4 +16,6 @@ jobs:
       - name: Check JavaScript syntax
         run: node --check site/app.js && node --check site/contact.js
       - name: Check internal links and required content
-        run: python scripts/check.py
+        run: |
+          python scripts/check.py
+          python scripts/check_docs.py

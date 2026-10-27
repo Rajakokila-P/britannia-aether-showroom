@@ -1,3 +1,5 @@
+> Historical document retained for traceability. Current specification and coverage: [COVERAGE.md](COVERAGE.md). Current homepage is index.html (showroom); portfolio.html is separate. Résumé is intentionally excluded. Earlier audit scores are historical, not rerun by this update.
+
 # Requirements review — 25 October 2026
 
 Scope: live showroom homepage and portfolio.html. Read-only audit; no production source changes.

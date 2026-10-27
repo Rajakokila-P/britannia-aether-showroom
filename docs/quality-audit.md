@@ -1,3 +1,5 @@
+> Historical document retained for traceability. Current specification and coverage: [COVERAGE.md](COVERAGE.md). Current homepage is index.html (showroom); portfolio.html is separate. Résumé is intentionally excluded. Earlier audit scores are historical, not rerun by this update.
+
 # Quality audit — 25 October 2026
 
 Lighthouse 13.5.0 ran against the local HTTP preview with headless Microsoft Edge. Scores are laboratory measurements, not a guarantee of live network performance or full WCAG conformance.
